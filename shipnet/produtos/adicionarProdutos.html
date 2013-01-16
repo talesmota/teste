@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://shipnet.gerencianet.com.br/" />
+<title>adicionarProdutos</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">adicionarProdutos</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/login/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=login</td>
+	<td>241880-18</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=senha</td>
+	<td>123123</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=entrar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=parteBaixoLajotaLoja_esq</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=btnProdutos</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='linkAdicionarProduto']/div/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=descricao</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=descricao</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=nomeDoProduto</td>
+	<td>Não deletar esse produto</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=descricao</td>
+	<td>Não deletar esse produto</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Produtos de informática</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=proximoPassoUp</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=GerenciarPerfis</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=GerenciarPerfis</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=span.textoDaCaixaAtiva</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=proximoPassoUp</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=do_action</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=do_action</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=freteNoTotal</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=do_action</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>upload_target</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=html</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=proximoPassoUp</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=proximoPassoUp</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.Caixa</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.Caixa</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=naoVariacao</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[@id='CadastrarLote']/div[2]/div[3]/h2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[@id='CadastrarLote']/div[2]/div[3]/h2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=valorVenda</td>
+	<td>15,00</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=qtdEstoque</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=InserirProduto</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=caixaInseridoSucesso</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=strong</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//table[@id='resumoCompra']/thead/tr/th[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//table[@id='resumoCompra']/thead/tr/th[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=proximoPassoUp</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=ativarLoja</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=ativarLoja</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ativarLoja</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Ir para lista de produtos da loja virtual</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=li &gt; span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//table[@id='editarProduto_listaDeProdutos']/thead/tr/th[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//table[@id='editarProduto_listaDeProdutos']/thead/tr/th[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=pesquisarProduto</td>
+	<td>Não deletar esse produto</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.botaoBuscaGnt</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForTable</td>
+	<td>id=editarProduto_listaDeProdutos.0.0</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>xpath=(//td[@id='codigo'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=nome</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=span.excluirGnt</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.excluirGnt</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[@id='janelaSusp0']/div/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.janelaSuspGntInt2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.btnGnt3</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

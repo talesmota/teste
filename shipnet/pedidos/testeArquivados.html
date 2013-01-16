@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://shipnet.gerencianet.com.br/" />
+<title>testeArquivados</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">testeArquivados</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/login/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=login</td>
+	<td>241880-18</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=senha</td>
+	<td>123123</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=entrar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=LojaMosaico</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=btnPedidos</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=p</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//table[@id='gerencCobrancas']/thead/tr/th[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=gerencCobrancasPesquisar</td>
+	<td>13111615</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.botaoBuscaGnt</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.botaoBuscaGnt</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//tr[@id='linha24188-13111615-LEFO1']/td[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//tr[@id='linha24188-13111615-LEFO1']/td[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=td &gt; input[name=&quot;gerencCobrancasmarcar-todos&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=acoesGnt</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//li[@onclick=&quot;cancelarCobr('')&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[@id='janelaSusp0']/div/span/div[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[@id='janelaSusp0']/div/span/div[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.btnGnt3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForTextPresent</td>
+	<td>Cancelada e Arquivada</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Cancelada e Arquivada</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.lojaIconePedidosArquivados</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//table[@id='tabelaPedidosArquivados']/thead/tr/th[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//table[@id='tabelaPedidosArquivados']/thead/tr/th[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=tabelaPedidosArquivadosPesquisar</td>
+	<td>13111615</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.botaoBuscaGnt</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//table[@id='tabelaPedidosArquivados']/thead/tr/th[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=th.header</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//tr[@id='linha24188-13111615-LEFO1']/td[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//tr[@id='linha24188-13111615-LEFO1']/td[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=td &gt; input[name=&quot;pedidosArquivadosmarcar-todos&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=acoesGnt</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=b</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.janelaSuspGntInt2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.tituloDestaque</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.btnGnt3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.janelaSuspGntInt2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Pedido restaurada com sucesso</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.btnGnt3</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
